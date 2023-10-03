@@ -1,15 +1,14 @@
-package sets;
+package example.com.sets;
 
-import java.util.HashSet;
 import java.util.Iterator;
-import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
-public class LinkedHashSets {
+public class TreeSets {
     static void illustrate() {
-        System.out.println("\n\nMaintains Order: LinkedHashSet");
+        System.out.println("\n\nMaintains Order: TreeSet");
 
-        Set set = new LinkedHashSet();
+        Set set = new TreeSet();
         set.add("Hello");
         set.add("World");
         set.add("World");
@@ -33,7 +32,7 @@ public class LinkedHashSets {
             System.out.println(iterator.next());
         }
 
-        Set set2 = new LinkedHashSet<String>();
+        Set set2 = new TreeSet<String>();
         set2.add("Good");
         set2.add("Bye");
         set2.add("World");
@@ -41,22 +40,22 @@ public class LinkedHashSets {
         System.out.println("set2");
         System.out.println(set2);
 
-        Set union = new LinkedHashSet<String>(set);
+        Set union = new TreeSet<String>(set);
         union.addAll(set2);
         System.out.println("Union of two sets");
         System.out.println(union);
 
-        Set intersection = new LinkedHashSet<String>(set);
+        Set intersection = new TreeSet<String>(set);
         intersection.retainAll(set2);
         System.out.println("Intersection of two sets");
         System.out.println(intersection);
 
-        Set difference = new LinkedHashSet<String>(set);
+        Set difference = new TreeSet<String>(set);
         difference.removeAll(set2);
         System.out.println("Difference of two sets");
         System.out.println(difference);
 
-        Set difference2 = new LinkedHashSet<String>(set2);
+        Set difference2 = new TreeSet<String>(set2);
         difference.removeAll(set);
         System.out.println("Difference of two sets");
         System.out.println(difference2);

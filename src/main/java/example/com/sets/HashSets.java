@@ -1,4 +1,4 @@
-package sets;
+package example.com.sets;
 
 import java.util.HashSet;
 import java.util.Iterator;

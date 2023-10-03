@@ -1,4 +1,4 @@
-package maps;
+package example.com.maps;
 
 public class Maps {
     public static void main(String[] args) {

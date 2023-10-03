@@ -1,4 +1,4 @@
-package queues;
+package example.com.queues;
 
 import java.util.*;
 

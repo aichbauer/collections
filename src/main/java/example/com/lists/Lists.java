@@ -1,4 +1,4 @@
-package lists;
+package example.com.lists;
 
 public class Lists {
     public static void main(String[] args) {

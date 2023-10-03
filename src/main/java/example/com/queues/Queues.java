@@ -1,4 +1,4 @@
-package queues;
+package example.com.queues;
 
 public class Queues {
     public static void main(String[] args) {

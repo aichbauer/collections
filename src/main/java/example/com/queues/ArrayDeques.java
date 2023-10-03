@@ -1,8 +1,7 @@
-package queues;
+package example.com.queues;
 
 import java.util.ArrayDeque;
 import java.util.Iterator;
-import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class ArrayDeques {
